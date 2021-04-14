@@ -1,0 +1,117 @@
+
+h2{
+position: relative;
+display:flex;
+align-self: 1000px;
+padding:3px;
+color:violet;
+justify-content: center;
+
+}
+h2:hover {
+  animation: rotate 0.7s ease-in-out both;
+ }
+   
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg) translate3d(0, 0, 0);
+  }
+  25% {
+    transform: rotate(3deg) translate3d(0, 0, 0);
+  }
+  50% {
+    transform: rotate(-3deg) translate3d(0, 0, 0);
+  }
+  75% {
+    transform: rotate(1deg) translate3d(0, 0, 0);
+  }
+  100% {
+    transform: rotate(0deg) translate3d(0, 0, 0);
+  }
+}
+
+img {
+  height: 55px;
+  background-color: red;
+  border-radius: 50%;
+  display: flex;
+  margin-inline-start: 20px;
+  top: 30px;
+}
+img:hover {
+  animation: rotate 0.7s ease-in-out both;
+ }
+
+input {
+  height: 20px;
+  border-bottom-color: red;
+  border: 1px solid red;
+  padding: 10px;
+  align-items: center;
+}
+input:hover {
+  animation: rotate 0.7s ease-in-out both;
+ }
+
+ *//* .App {
+} */
+.list {
+  display: flex;
+  flex-direction: column;
+}
+.userName-container {
+  color: blue;
+  font-size: 20px;
+}
+.repo-ccontainer {
+  color: blue;
+  font-size: 25px;
+}
+li {
+  height: 40px;
+}
+span {
+  height: 20px;
+  border-radius: 5px;
+ 
+}
+.App-Container{
+  display: flex;
+  align-items: center;
+  background-color: #333;
+  height: 50px;
+  line-height: 50px;
+  padding: 10px;
+  border: 1px solid #666;
+}
+img {
+  height: 35px;
+  background-color: white;
+  border-radius: 50%;
+  margin-inline-start: 20px;
+  top: 30px;
+}
+input {
+  height: 20px;
+  border-radius: 5px;
+}
+.input1 {
+  margin-inline-start: 20px;
+}
+.input1 {
+  margin-inline-start: 50px;
+}
+
+button {
+  top: 20px;
+  height: 25px;
+  margin-inline-start: 20px;
+  border-radius: 5px;
+}
+.page-link {
+  
+  height: 5px;
+  width: 10px;
+}
+
+
